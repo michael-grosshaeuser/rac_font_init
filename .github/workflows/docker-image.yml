@@ -2,25 +2,23 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
     paths:
-      - 'Dockerfile'
-      - 'app/**'
+      - "Dockerfile"
+      - "app/**"
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
     paths:
-      - 'Dockerfile'
-      - 'app/**'
+      - "Dockerfile"
+      - "app/**"
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag rac_font_init:${{ vars.MAJOR }}.${{ vars.MINOR }}
-    - name: tag Docker image
+      - uses: actions/checkout@v4
+      - name: Build the Docker image
+        run: docker build . --file Dockerfile --tag rac_font_init:${{ vars.MAJOR }}.${{ vars.MINOR }}
+      - name: tag Docker image
         run: docker image tag rac_font_init:${{ vars.MAJOR }}.${{ vars.MINOR }} rac_font_init:latest

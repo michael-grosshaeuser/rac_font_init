@@ -10,7 +10,7 @@ ARG BASE_IMAGE=gcr.io/distroless/base-debian12:latest
 # If it succeeds, a marker file is created to indicate success.
 # This marker file is then copied to the final stage to enforce the execution
 # of this stage.
-FROM alpine:latest AS image-verifier
+FROM alpine:3.22 AS image-verifier
 ARG BASE_IMAGE
 RUN apk add -u --no-cache cosign \
     && cosign verify $BASE_IMAGE \
@@ -20,7 +20,7 @@ RUN apk add -u --no-cache cosign \
 
 ################################################################################
 # Create a stage for building/compiling the application.
-FROM gcc:13.2-bookworm AS build
+FROM gcc:15.2-bookworm AS build
 
 # copy fonts and entrypoint script from context
 ADD https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Hack.zip /fonts/

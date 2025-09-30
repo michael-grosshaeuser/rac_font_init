@@ -22,16 +22,18 @@ RUN apk add -u --no-cache cosign \
 # Create a stage for building/compiling the application.
 FROM gcc:15.2-bookworm AS build
 
-# copy fonts and entrypoint script from context
-ADD https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Hack.zip /fonts/
-COPY app /app
-
 # install unzip utility
 RUN apt-get update && apt-get install -y --no-install-recommends \
     unzip \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
+# copy fonts and entrypoint script from context
+ADD https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Hack.zip /fonts/
+COPY app /app
+# set permissions to non-root user
+RUN chown -R 1000:1000 /app /fonts
+USER 1000:1000
 # unzip fonts
 WORKDIR /fonts
 RUN unzip *.zip && rm *.zip
@@ -52,8 +54,6 @@ LABEL org.opencontainers.image.authors="micgro2@gmail.com" \
       org.opencontainers.image.vendor='Michael Grosshaeuser' \
       org.opencontainers.image.licenses='GNU GENERAL PUBLIC LICENSE Version 3' \
       org.opencontainers.image.description="copy Nerd Fonts to a volume"
-
-USER 1000:1000
 
 # Copy the executable from the "build" stage.
 COPY --from=build /app/copy_fonts /usr/local/bin/copy_fonts

@@ -36,7 +36,7 @@ RUN chown -R 1000:1000 /app /fonts
 USER 1000:1000
 # unzip fonts
 WORKDIR /fonts
-RUN unzip *.zip && rm *.zip
+RUN unzip ./*.zip && rm ./*.zip
 # build the C++ copy_fonts application
 WORKDIR /app
 RUN g++ -static-libstdc++ -static-libgcc -std=c++17 -o copy_fonts copy_fonts.cpp

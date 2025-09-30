@@ -3,8 +3,14 @@ name: Docker Image CI
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - 'Dockerfile'
+      - 'app/**'
   pull_request:
     branches: [ "main" ]
+    paths:
+      - 'Dockerfile'
+      - 'app/**'
 
 jobs:
 
@@ -15,6 +21,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:${{ MAJOR }}.${{ MINOR }}
+      run: docker build . --file Dockerfile --tag my-image-name:${{ vars.MAJOR }}.${{ vars.MINOR }}
     - name: tag Docker image
       run: docker image tag my-image-name:latest

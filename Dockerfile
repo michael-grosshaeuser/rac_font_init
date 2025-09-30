@@ -46,9 +46,9 @@ RUN g++ -static-libstdc++ -static-libgcc -std=c++17 -o copy_fonts copy_fonts.cpp
 FROM ${BASE_IMAGE} AS final
 
 LABEL org.opencontainers.image.authors="micgro2@gmail.com" \
-      org.opencontainers.image.url='' \
-      org.opencontainers.image.documentation='' \
-      org.opencontainers.image.source='https://github.com/michael-grosshaeuser/rac_font_init' \
+      org.opencontainers.image.url='https://github.com/michael-grosshaeuser/rac_font_init' \
+      org.opencontainers.image.documentation='https://github.com/michael-grosshaeuser/rac_font_init/blob/main/README.md' \
+      org.opencontainers.image.source='https://github.com/michael-grosshaeuser/rac_font_init/blob/main/Dockerfile' \
       org.opencontainers.image.vendor='Michael Grosshaeuser' \
       org.opencontainers.image.licenses='GNU GENERAL PUBLIC LICENSE Version 3' \
       org.opencontainers.image.description="copy Nerd Fonts to a volume"

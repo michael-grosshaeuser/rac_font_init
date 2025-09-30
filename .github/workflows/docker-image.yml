@@ -21,6 +21,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:${{ vars.MAJOR }}.${{ vars.MINOR }}
+      run: docker build . --file Dockerfile --tag rac_font_init:${{ vars.MAJOR }}.${{ vars.MINOR }}
     - name: tag Docker image
-      run: docker image tag my-image-name:latest
+        run: docker image tag rac_font_init:${{ vars.MAJOR }}.${{ vars.MINOR }} rac_font_init:latest

@@ -12,12 +12,12 @@ int main() {
   std::string dst = "/font_volume";
 
   if (!fs::exists(src) || !fs::is_directory(src)) {
-    std::cerr << "Quellverzeichnis " << src << " existiert nicht." << std::endl;
+    std::cerr << "Source directory " << src << " not found." << std::endl;
     return 1;
   }
 
   if (!fs::exists(dst) || !fs::is_directory(dst)) {
-    std::cerr << "Zielverzeichnis " << dst << " existiert nicht." << std::endl;
+    std::cerr << "Target directory" << dst << " not found." << std::endl;
     return 1;
   }
 
@@ -31,9 +31,9 @@ int main() {
   }
 
   if (!found) {
-    std::cout << "Keine .ttf-Dateien gefunden." << std::endl;
+    std::cout << "No .ttf-Files found." << std::endl;
   } else {
-    std::cout << "Kopieren abgeschlossen." << std::endl;
+    std::cout << "Copy completed." << std::endl;
   }
 
   return 0;

@@ -22,3 +22,9 @@ jobs:
         run: docker build . --file Dockerfile --tag rac_font_init:${{ vars.MAJOR }}.${{ vars.MINOR }}
       - name: tag Docker image
         run: docker image tag rac_font_init:${{ vars.MAJOR }}.${{ vars.MINOR }} rac_font_init:latest
+      - uses: mmoyaferrer/set-github-variable@v1.0.0
+        with:
+            name: 'MINOR'
+            value: $((${{ vars.MINOR }}+1))
+            repository: mmoyaferrer/set-github-variable
+            token: ${{ secrets.variable_access_token }}

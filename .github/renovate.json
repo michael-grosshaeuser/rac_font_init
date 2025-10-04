@@ -1,19 +1,13 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": [
-        "config:best-practices"
-    ],
-    "commitMessagePrefix": "🚧 Renovate:",
-    "commitMessageExtra": "from {{{currentVersion}}} to {{{newVersion}}}",
-    "labels": [
-        "🤖_renovate"
-    ],
-    "packageRules": [
-        {
-            "matchCategories": [
-                "docker"
-            ],
-            "enabled": true
-        }
-    ]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:best-practices"],
+  "commitMessagePrefix": "🚧 Renovate:",
+  "commitMessageExtra": "from {{{currentVersion}}} to {{{newVersion}}}",
+  "labels": ["🤖_renovate"],
+  "packageRules": [
+    {
+      "matchCategories": ["docker"],
+      "enabled": true
+    }
+  ]
 }

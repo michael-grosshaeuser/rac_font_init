@@ -3,13 +3,17 @@
     "extends": [
         "config:best-practices"
     ],
-    "repositories": [
-        "michael-grosshaeuser/rac_font_init"
-    ],
     "commitMessagePrefix": "🚧 Renovate:",
     "commitMessageExtra": "from {{{currentVersion}}} to {{{newVersion}}}",
-    "labels": ["🤖_renovate"],
-    "docker": {
-        "enabled": true
-    }
+    "labels": [
+        "🤖_renovate"
+    ],
+    "packageRules": [
+        {
+            "matchCategories": [
+                "docker"
+            ],
+            "enabled": true
+        }
+    ]
 }

@@ -40,7 +40,7 @@ WORKDIR /fonts
 RUN unzip ./*.zip && rm ./*.zip
 # build the C++ copy_fonts application
 WORKDIR /app
-RUN g++ -static-libstdc++ -static-libgcc -std=c++17 -o copy_fonts copy_fonts.cpp
+RUN g++ -static-libstdc++ -static-libgcc -std=c++17 -g -O2 -o copy_fonts copy_fonts.cpp
 
 ################################################################################
 # Create a final stage for running the application.

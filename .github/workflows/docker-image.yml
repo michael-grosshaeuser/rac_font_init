@@ -28,7 +28,7 @@ jobs:
           else
             TAG="$BRANCH"
           fi
-          echo "tag=$TAG" >> $GITHUB_OUTPUT
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
 
       - name: Build the Docker image
         run: docker build . --file Dockerfile --tag rac_font_init:${{ steps.vars.outputs.tag }}
@@ -45,8 +45,7 @@ jobs:
       - name: Calculate next MINOR version
         if: github.ref == 'refs/heads/main'
         id: calc_minor
-        # shellcheck disable=SC2086
-        run: echo "NEXT_MINOR=$(( ${{ vars.MINOR }} + 1 ))" >> $GITHUB_OUTPUT
+        run: echo "NEXT_MINOR=$(( ${{ vars.MINOR }} + 1 ))" >> "$GITHUB_OUTPUT"
       - uses: mmoyaferrer/set-github-variable@dc880eda800cf0f5332f5b4a5730e86327b96815 # v1.0.0
         if: github.ref == 'refs/heads/main'
         with:

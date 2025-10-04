@@ -31,4 +31,4 @@ jobs:
             name: 'MINOR'
             value: ${{ steps.calc_minor.outputs.NEXT_MINOR }}
             repository: michael-grosshaeuser/rac_font_init
-            token: ${{ secrets.variable_access_token }}
+            token: ${{ secrets.RAC_FONT_INIT }}

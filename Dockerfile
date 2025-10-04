@@ -1,7 +1,7 @@
-# syntax=docker/dockerfile:1
+# syntax=docker/dockerfile:1@sha256:dabfc0969b935b2080555ace70ee69a5261af8a8f1b4df97b9e7fbcf6722eddf
 
 # Set the base image as a build argument with a default value.
-ARG BASE_IMAGE=gcr.io/distroless/base-debian12:latest
+ARG BASE_IMAGE=gcr.io/distroless/base-debian12:latest@sha256:9e9b50d2048db3741f86a48d939b4e4cc775f5889b3496439343301ff54cdba8
 
 ################################################################################
 # Create a stage for verifying the base image signature.
@@ -10,7 +10,7 @@ ARG BASE_IMAGE=gcr.io/distroless/base-debian12:latest
 # If it succeeds, a marker file is created to indicate success.
 # This marker file is then copied to the final stage to enforce the execution
 # of this stage.
-FROM alpine:3.22 AS image-verifier
+FROM alpine:3.22@sha256:4bcff63911fcb4448bd4fdacec207030997caf25e9bea4045fa6c8c44de311d1 AS image-verifier
 ARG BASE_IMAGE
 RUN apk add -u --no-cache cosign \
     && cosign verify $BASE_IMAGE \
@@ -20,7 +20,7 @@ RUN apk add -u --no-cache cosign \
 
 ################################################################################
 # Create a stage for building/compiling the application.
-FROM gcc:15.2-bookworm AS build
+FROM gcc:15.2-bookworm@sha256:9ca91b05c7b07d2979f16413e8b2cd6ec8a7c80ffca4121ccab0aeba33f90460 AS build
 
 # install unzip utility
 RUN apt-get update && apt-get install -y --no-install-recommends \

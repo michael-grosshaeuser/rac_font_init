@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4
       - name: Build the Docker image
         run: docker build . --file Dockerfile --tag rac_font_init:${{ vars.MAJOR }}.${{ vars.MINOR }}
       - name: tag Docker image
@@ -26,7 +26,7 @@ jobs:
       - name: Calculate next MINOR version
         id: calc_minor
         run: echo "NEXT_MINOR=$(( ${{ vars.MINOR }} + 1 ))" >> $GITHUB_OUTPUT
-      - uses: mmoyaferrer/set-github-variable@v1.0.0
+      - uses: mmoyaferrer/set-github-variable@dc880eda800cf0f5332f5b4a5730e86327b96815 # v1.0.0
         with:
             name: 'MINOR'
             value: ${{ steps.calc_minor.outputs.NEXT_MINOR }}

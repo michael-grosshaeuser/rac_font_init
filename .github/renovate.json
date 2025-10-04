@@ -3,6 +3,7 @@
     "extends": [
         "config:best-practices"
     ],
+    "platform": "github",
     "commitMessagePrefix": "🚧 Renovate:",
     "commitMessageExtra": "from {{{currentVersion}}} to {{{newVersion}}}",
     "labels": [

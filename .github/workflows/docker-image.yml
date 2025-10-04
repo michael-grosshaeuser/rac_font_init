@@ -48,7 +48,7 @@ jobs:
       - uses: mmoyaferrer/set-github-variable@dc880eda800cf0f5332f5b4a5730e86327b96815 # v1.0.0
         if: github.ref == 'refs/heads/main'
         with:
-            name: 'MINOR'
-            value: ${{ steps.calc_minor.outputs.NEXT_MINOR }}
-            repository: michael-grosshaeuser/rac_font_init
-            token: ${{ secrets.RAC_FONT_INIT }}
+          name: "MINOR"
+          value: ${{ steps.calc_minor.outputs.NEXT_MINOR }}
+          repository: michael-grosshaeuser/rac_font_init
+          token: ${{ secrets.RAC_FONT_INIT }}

@@ -3,7 +3,7 @@ name: Renovate check
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * 1' # jeden Montag um 03:00 Uhr
+    - cron: "0 3 * * 1" # jeden Montag um 03:00 Uhr
 
 jobs:
   renovate:

@@ -29,6 +29,7 @@ RUN apt-get update && apt-get satisfy -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # copy fonts and entrypoint script from context
+# checkov:skip=CKV_DOCKER_4 reason="Using a fixed, verified URL for downloading fonts"
 ADD https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Hack.zip /fonts/
 COPY app /app
 # set permissions to non-root user
@@ -45,6 +46,7 @@ RUN g++ -static-libstdc++ -static-libgcc -std=c++17 -o copy_fonts copy_fonts.cpp
 # Create a final stage for running the application.
 # This stage copies the compiled binary from the "build" stage.
 # It uses a minimal base image to reduce image size and attack surface.
+# checkov:skip=CKV_DOCKER_7 reason="Base image is defined and verified with cosign in a previous stage"
 FROM ${BASE_IMAGE} AS final
 
 LABEL org.opencontainers.image.authors="micgro2@gmail.com" \
@@ -67,6 +69,10 @@ ENV LANG=C.UTF-8
 
 # Add VOLUMEs where the fonts will be copied to
 VOLUME  ["/font_volume"]
+
+# HEALTHCHECK: prüft, ob das Binary vorhanden ist
+HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \
+  CMD [ -x /usr/local/bin/copy_fonts ] || exit 1
 
 # What the container should run when it is started.
 ENTRYPOINT ["copy_fonts"]

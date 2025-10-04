@@ -1,0 +1,6 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "repositories": [
+        "michael-grosshaeuser/rac_font_init"
+    ]
+}

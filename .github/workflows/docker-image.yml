@@ -24,9 +24,11 @@ jobs:
         run: docker image tag rac_font_init:${{ vars.MAJOR }}.${{ vars.MINOR }} rac_font_init:latest
 
       - name: Calculate next MINOR version
+        if: github.ref == 'refs/heads/main'
         id: calc_minor
         run: echo "NEXT_MINOR=$(( ${{ vars.MINOR }} + 1 ))" >> $GITHUB_OUTPUT
       - uses: mmoyaferrer/set-github-variable@dc880eda800cf0f5332f5b4a5730e86327b96815 # v1.0.0
+        if: github.ref == 'refs/heads/main'
         with:
             name: 'MINOR'
             value: ${{ steps.calc_minor.outputs.NEXT_MINOR }}

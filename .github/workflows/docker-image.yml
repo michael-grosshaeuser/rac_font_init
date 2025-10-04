@@ -20,6 +20,7 @@ jobs:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
       - name: Set image tag
         id: vars
+        # shellcheck disable=SC2086
         run: |
           BRANCH=$(echo "${GITHUB_REF##*/}" | tr '[:upper:]' '[:lower:]' | tr -c 'a-z0-9' '-')
           if [ "$BRANCH" = "main" ]; then
@@ -44,6 +45,7 @@ jobs:
       - name: Calculate next MINOR version
         if: github.ref == 'refs/heads/main'
         id: calc_minor
+        # shellcheck disable=SC2086
         run: echo "NEXT_MINOR=$(( ${{ vars.MINOR }} + 1 ))" >> $GITHUB_OUTPUT
       - uses: mmoyaferrer/set-github-variable@dc880eda800cf0f5332f5b4a5730e86327b96815 # v1.0.0
         if: github.ref == 'refs/heads/main'

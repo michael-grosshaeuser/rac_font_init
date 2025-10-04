@@ -23,8 +23,8 @@ RUN apk add -u --no-cache cosign \
 FROM gcc:15.2-bookworm@sha256:9ca91b05c7b07d2979f16413e8b2cd6ec8a7c80ffca4121ccab0aeba33f90460 AS build
 
 # install unzip utility
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    unzip \
+RUN apt-get update && apt-get satisfy -y --no-install-recommends \
+    "unzip (>> 6.0)" \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 

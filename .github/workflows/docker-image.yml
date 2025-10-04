@@ -18,10 +18,28 @@ jobs:
 
     steps:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
+      - name: Set image tag
+        id: vars
+        run: |
+          BRANCH=$(echo "${GITHUB_REF##*/}" | tr '[:upper:]' '[:lower:]' | tr -c 'a-z0-9' '-')
+          if [ "$BRANCH" = "main" ]; then
+            TAG="${{ vars.MAJOR }}.${{ vars.MINOR }}"
+          else
+            TAG="$BRANCH"
+          fi
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+
       - name: Build the Docker image
-        run: docker build . --file Dockerfile --tag rac_font_init:${{ vars.MAJOR }}.${{ vars.MINOR }}
-      - name: tag Docker image
-        run: docker image tag rac_font_init:${{ vars.MAJOR }}.${{ vars.MINOR }} rac_font_init:latest
+        run: docker build . --file Dockerfile --tag rac_font_init:${{ steps.vars.outputs.tag }}
+      - name: Log in to GitHub Container Registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: Tag image for GitHub Container Registry
+        run: |
+          docker tag rac_font_init:${{ steps.vars.outputs.tag }} ghcr.io/${{ github.repository }}:${{ steps.vars.outputs.tag }}
+
+      - name: Push image to GitHub Container Registry
+        run: docker push ghcr.io/${{ github.repository }}:${{ steps.vars.outputs.tag }}
 
       - name: Calculate next MINOR version
         if: github.ref == 'refs/heads/main'

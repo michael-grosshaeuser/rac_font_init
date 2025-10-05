@@ -70,7 +70,7 @@ ENV LANG=C.UTF-8
 # Add VOLUMEs where the fonts will be copied to
 VOLUME  ["/font_volume"]
 
-# HEALTHCHECK: prüft, ob das Binary vorhanden ist
+# HEALTHCHECK: check if the copy_fonts binary exists and is executable
 HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \
   CMD [ -x /usr/local/bin/copy_fonts ] || exit 1
 

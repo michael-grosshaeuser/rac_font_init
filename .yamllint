@@ -1,0 +1,13 @@
+extends: default
+
+rules:
+  # 80 chars should be enough, but don't fail if a line is longer
+  line-length:
+    max: 80
+    level: warning
+  new-lines:
+    type: unix
+  empty-lines:
+    max: 2
+    max-start: 0
+    max-end: 1

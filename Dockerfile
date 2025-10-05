@@ -65,9 +65,6 @@ COPY --from=image-verifier /marker /ignore-me
 COPY --from=build /app/copy_fonts /usr/local/bin/copy_fonts
 COPY --from=build /fonts /fonts
 
-# Das folgende COPY erzwingt die Ausführung/Bau der image-verifier Stage
-COPY --from=image-verifier /marker /ignore-me
-
 # Ensure the container exec commands handle range of utf8 characters
 ENV LANG=C.UTF-8
 

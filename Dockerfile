@@ -57,6 +57,10 @@ LABEL org.opencontainers.image.authors="micgro2@gmail.com" \
       org.opencontainers.image.licenses='GNU GENERAL PUBLIC LICENSE Version 3' \
       org.opencontainers.image.description="copy Nerd Fonts to a volume"
 
+# copy the marker file from the image-verifier stage to enforce its execution
+# if the image-verifier stage fails, this copy will not happen and the build will fail
+COPY --from=image-verifier /marker /ignore-me
+
 # Copy the executable from the "build" stage.
 COPY --from=build /app/copy_fonts /usr/local/bin/copy_fonts
 COPY --from=build /fonts /fonts

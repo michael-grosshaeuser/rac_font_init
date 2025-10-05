@@ -12,16 +12,24 @@ on:
   pull_request:
     branches: ["main"]
 
-permissions: read-all
+permissions: {}
 jobs:
   run-lint:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: read
+      # To report GitHub Actions status checks
+      statuses: write
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
         with:
           # Full git history is needed to get a proper list of changed files within `super-linter`
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Lint Code Base
         uses: github/super-linter@b807e99ddd37e444d189cfd2c2ca1274d8ae8ef1 # v7

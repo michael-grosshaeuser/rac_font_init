@@ -32,5 +32,6 @@
 **/values.dev.yaml
 **/.yamllint
 **/.hadolint.yaml
+**/authentik
 LICENSE
 README.md

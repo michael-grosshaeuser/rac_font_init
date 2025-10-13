@@ -28,11 +28,14 @@ RUN apt-get update && apt-get satisfy -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # copy fonts and entrypoint script from context
-# checkov:skip=CKV_DOCKER_4 reason="Using a fixed, verified URL for downloading fonts"
-ADD https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Hack.zip /fonts/
-COPY app /app
 # set permissions to non-root user
-RUN chown -R 1000:1000 /app /fonts
+# checkov:skip=CKV_DOCKER_4 reason="Using a fixed, verified URL for downloading fonts"
+ADD \
+--chown=1000:1000 \
+--checksum=sha256:8ca33a60c791392d872b80d26c42f2bfa914a480f9eb2d7516d9f84373c36897 \
+https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Hack.zip /fonts/
+COPY --chown=1000:1000 app /app
+# switch to non-root user
 USER 1000:1000
 # unzip fonts
 WORKDIR /fonts

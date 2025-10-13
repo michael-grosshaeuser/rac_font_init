@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.0](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.0.1...v1.1.0) (2025-10-13)
+
+### Features
+
+- verify the checksum of a remote font package ([b3c18a1](https://github.com/michael-grosshaeuser/rac_font_init/commit/b3c18a1e3354b4734042e9e168778d8b3e42869f))
+
 ## [1.0.1](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.0.0...v1.0.1) (2025-10-13)
 
 ### Bugfixes

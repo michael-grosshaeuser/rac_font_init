@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1@sha256:b6afd42430b15f2d2a4c5a02b919e98a525b785b1aaff16747d2f623364e39b6
 # Set the base image as a build argument with a default value.
-ARG BASE_IMAGE=gcr.io/distroless/base-debian13:latest@sha256:894e78799ebace28d56fc226a05d76a601685e1382421299eed8b7a95b90fa9e
+ARG BASE_IMAGE=gcr.io/distroless/base-debian13:latest@sha256:cdb43eda8af166b2299779d18d3c00998e0bbf890d1fffb7c884a41fbd65e2d6
 
 ################################################################################
 # Create a stage for verifying the base image signature.

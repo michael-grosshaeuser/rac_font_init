@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.1.0...v1.2.0) (2025-12-13)
+
+
+### Features
+
+* enable FIX_MARKDOWN_PRETTIER for super linter ([e42c3f3](https://github.com/michael-grosshaeuser/rac_font_init/commit/e42c3f3532b4bf04506f3e23a526d27946723069))
+
+
+### Bug Fixes
+
+* move ccplint config ([a472bc6](https://github.com/michael-grosshaeuser/rac_font_init/commit/a472bc6b1d6da10a208ba4cf733a364ce7fb4740))
+
 ## [1.1.0](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.0.1...v1.1.0) (2025-10-13)
 
 ### Features

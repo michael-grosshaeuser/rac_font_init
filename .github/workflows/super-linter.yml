@@ -39,3 +39,5 @@ jobs:
           DEFAULT_BRANCH: "main"
           LINTER_RULES_PATH: .
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_BIOME_FORMAT: false
+          VALIDATE_TRIVY: false

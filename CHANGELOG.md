@@ -4,8 +4,8 @@
 
 ### Bugfixes
 
-* change renovate semantic commit type for docker ([0c15d42](https://github.com/michael-grosshaeuser/rac_font_init/commit/0c15d420d5d7d0e368d2afa249114a2642a425ca))
-* change renovate semantic commit type for docker ([41bea81](https://github.com/michael-grosshaeuser/rac_font_init/commit/41bea818a35e9a41eb5a292271320309b36201c1))
+* change renovate semantic commit type for Docker ([0c15d42](https://github.com/michael-grosshaeuser/rac_font_init/commit/0c15d420d5d7d0e368d2afa249114a2642a425ca))
+* change renovate semantic commit type for Docker ([41bea81](https://github.com/michael-grosshaeuser/rac_font_init/commit/41bea818a35e9a41eb5a292271320309b36201c1))
 
 ## [1.2.0](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.1.0...v1.2.0) (2025-12-13)
 

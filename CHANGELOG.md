@@ -6,12 +6,12 @@
 ### Dependencies
 
 * **deps:** update gcr.io/distroless/base-debian13:latest  ([f5f5cfd](https://github.com/michael-grosshaeuser/rac_font_init/commit/f5f5cfd69cab8c82548c39a5dd32c819eb45ab03))
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 8c8b7cf ([6f48f5d](https://github.com/michael-grosshaeuser/rac_font_init/commit/6f48f5d1a16bff1f86bbac82278543b9b7192fbf))
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 9740672 ([f5f5cfd](https://github.com/michael-grosshaeuser/rac_font_init/commit/f5f5cfd69cab8c82548c39a5dd32c819eb45ab03))
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 9740672 ([7b991ce](https://github.com/michael-grosshaeuser/rac_font_init/commit/7b991ceb8f396752a951494c5c5bd59a926bdf55))
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 9fc4940 ([4a24bae](https://github.com/michael-grosshaeuser/rac_font_init/commit/4a24bae509bc5fbeb5e90866ff0f73b1c47b9216))
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 9fc4940 ([4a24bae](https://github.com/michael-grosshaeuser/rac_font_init/commit/4a24bae509bc5fbeb5e90866ff0f73b1c47b9216))
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 9fc4940 ([1a7ebac](https://github.com/michael-grosshaeuser/rac_font_init/commit/1a7ebacea82b0302374ba5443f5314fb13d1c0ac))
+* **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 8c8b7cf ([6f48f5d](https://github.com/michael-grosshaeuser/rac_font_init/commit/6f48f5d1a16bff1f86bbac82278543b9b7192fbf))
+* **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 9740672 ([f5f5cfd](https://github.com/michael-grosshaeuser/rac_font_init/commit/f5f5cfd69cab8c82548c39a5dd32c819eb45ab03))
+* **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 9740672 ([7b991ce](https://github.com/michael-grosshaeuser/rac_font_init/commit/7b991ceb8f396752a951494c5c5bd59a926bdf55))
+* **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 9fc4940 ([4a24bae](https://github.com/michael-grosshaeuser/rac_font_init/commit/4a24bae509bc5fbeb5e90866ff0f73b1c47b9216))
+* **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 9fc4940 ([4a24bae](https://github.com/michael-grosshaeuser/rac_font_init/commit/4a24bae509bc5fbeb5e90866ff0f73b1c47b9216))
+* **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 9fc4940 ([1a7ebac](https://github.com/michael-grosshaeuser/rac_font_init/commit/1a7ebacea82b0302374ba5443f5314fb13d1c0ac))
 
 
 ### Documentation

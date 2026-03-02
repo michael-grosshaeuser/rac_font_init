@@ -1,9 +1,14 @@
 # Init container for authentik remote access control outpost
 
-This project provides a secure, containerized tool to copy [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) (e.g., Hack) into a Docker volume.  
-The container verifies the signature of the used base image with [cosign](https://github.com/sigstore/cosign) before starting, compiles a small C++ application for copying the fonts, and uses a minimal, secure runtime image.
+This project provides a secure, containerized tool to copy
+[Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
+(e.g., Hack) into a Docker volume.  
+The container verifies the signature of the used base image with
+[cosign](https://github.com/sigstore/cosign) before starting, compiles a small
+C++ application for copying the fonts, and uses a minimal, secure runtime image.
 
-The container could be used as init container for the authentik remote access control outpost to copy the fonts to a volume which is used by the rac container.
+The container could be used as init container for the authentik remote access
+control outpost to copy the fonts to a volume which is used by the rac container.
 
 ## Features
 

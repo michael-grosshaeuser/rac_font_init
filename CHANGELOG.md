@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.2.2](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.2.1...v1.2.2) (2026-03-02)
+
+
+### Dependencies
+
+* **deps:** update gcr.io/distroless/base-debian13:latest  ([f5f5cfd](https://github.com/michael-grosshaeuser/rac_font_init/commit/f5f5cfd69cab8c82548c39a5dd32c819eb45ab03))
+* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 8c8b7cf ([6f48f5d](https://github.com/michael-grosshaeuser/rac_font_init/commit/6f48f5d1a16bff1f86bbac82278543b9b7192fbf))
+* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 9740672 ([f5f5cfd](https://github.com/michael-grosshaeuser/rac_font_init/commit/f5f5cfd69cab8c82548c39a5dd32c819eb45ab03))
+* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 9740672 ([7b991ce](https://github.com/michael-grosshaeuser/rac_font_init/commit/7b991ceb8f396752a951494c5c5bd59a926bdf55))
+* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 9fc4940 ([4a24bae](https://github.com/michael-grosshaeuser/rac_font_init/commit/4a24bae509bc5fbeb5e90866ff0f73b1c47b9216))
+* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 9fc4940 ([4a24bae](https://github.com/michael-grosshaeuser/rac_font_init/commit/4a24bae509bc5fbeb5e90866ff0f73b1c47b9216))
+* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 9fc4940 ([1a7ebac](https://github.com/michael-grosshaeuser/rac_font_init/commit/1a7ebacea82b0302374ba5443f5314fb13d1c0ac))
+
+
+### Documentation
+
+* fix CHANGELOG.md ([5bcd8b7](https://github.com/michael-grosshaeuser/rac_font_init/commit/5bcd8b7600d0607a3357a6cff40de3efe09776cd))
+* fix CHANGELOG.md ([1ee6641](https://github.com/michael-grosshaeuser/rac_font_init/commit/1ee6641a8110e6b9741c49131368f2c7a14605e3))
+
+
+### Bugfixes
+
+* release please config ([8fcda24](https://github.com/michael-grosshaeuser/rac_font_init/commit/8fcda2459d754f154c5fc08428d9e0f492b393ce))
+
 ## [1.2.1](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.2.0...v1.2.1) (2026-01-30)
 
 ### Bugfixes

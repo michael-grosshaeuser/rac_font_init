@@ -12,6 +12,7 @@
 **/.env
 **/.git
 **/.gitignore
+**/.github
 **/.project
 **/.settings
 **/.toolstarget
@@ -28,8 +29,6 @@
 **/.yamllint
 **/.hadolint.yaml
 **/authentik
-**/release-please-config.json
-**/.release-please-manifest.json
 **/CPPLINT.cfg
 LICENSE
 README.md

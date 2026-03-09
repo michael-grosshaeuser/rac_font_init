@@ -19,7 +19,10 @@ RUN apk add -u --no-cache cosign=~2.4 \
 
 ################################################################################
 # Create a stage for building/compiling the application.
-FROM gcc:15.2-bookworm@sha256:9ca91b05c7b07d2979f16413e8b2cd6ec8a7c80ffca4121ccab0aeba33f90460 AS build
+FROM --platform=$BUILDPLATFORM gcc:15.2.0-trixie@sha256:9cc747b141fb69baaff237936f742f579fe6439e5b3b533b1c40d82374d220a0 AS build
+
+ARG TARGETPLATFORM
+ARG BUILDPLATFORM
 
 # install unzip utility
 RUN apt-get update && apt-get satisfy -y --no-install-recommends \

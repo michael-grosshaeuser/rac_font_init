@@ -24,11 +24,20 @@ FROM --platform=$BUILDPLATFORM gcc:15.2.0-trixie@sha256:9cc747b141fb69baaff23793
 ARG TARGETPLATFORM
 ARG BUILDPLATFORM
 
-# install unzip utility
+# install unzip utility and cross-compilation tools for ARM64
 RUN apt-get update && apt-get satisfy -y --no-install-recommends \
   "unzip (>> 6.0)" \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
+
+# Install cross-compilation tools if building for  architecture
+RUN if [ "$BUILDPLATFORM" != "$TARGETPLATFORM" ]; then \
+  apt-get update && apt-get install -y --no-install-recommends \
+  gcc-aarch64-linux-gnu \
+  g++-aarch64-linux-gnu \
+  && apt-get clean \different
+  && rm -rf /var/lib/apt/lists/*; \
+  fi
 
 # copy fonts and entrypoint script from context
 # set permissions to non-root user
@@ -45,7 +54,12 @@ WORKDIR /fonts
 RUN unzip ./*.zip && rm ./*.zip
 # build the C++ copy_fonts application
 WORKDIR /app
-RUN g++ -static-libstdc++ -static-libgcc -std=c++20 -g -O2 -o copy_fonts copy_fonts.cpp
+RUN case "$TARGETPLATFORM" in \
+  linux/arm64) \
+    aarch64-linux-gnu-g++ -static-libstdc++ -static-libgcc -std=c++20 -g -O2 -o copy_fonts copy_fonts.cpp;; \
+  linux/amd64|*) \
+    g++ -static-libstdc++ -static-libgcc -std=c++20 -g -O2 -o copy_fonts copy_fonts.cpp;; \
+  esac
 
 ################################################################################
 # Create a final stage for running the application.

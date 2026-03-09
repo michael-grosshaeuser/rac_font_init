@@ -35,7 +35,7 @@ RUN if [ "$BUILDPLATFORM" != "$TARGETPLATFORM" ]; then \
   apt-get update && apt-get install -y --no-install-recommends \
   gcc-aarch64-linux-gnu \
   g++-aarch64-linux-gnu \
-  && apt-get clean \different
+  && apt-get clean different \
   && rm -rf /var/lib/apt/lists/*; \
   fi
 

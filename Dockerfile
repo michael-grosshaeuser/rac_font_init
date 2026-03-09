@@ -32,9 +32,9 @@ RUN apt-get update && apt-get satisfy -y --no-install-recommends \
 
 # Install cross-compilation tools if building for  architecture
 RUN if [ "$BUILDPLATFORM" != "$TARGETPLATFORM" ]; then \
-  apt-get update && apt-get install -y --no-install-recommends \
-  gcc-aarch64-linux-gnu \
-  g++-aarch64-linux-gnu \
+  apt-get update && apt-get satisfy -y --no-install-recommends \
+  "gcc-aarch64-linux-gnu (>>4:14.2)" \
+  "g++-aarch64-linux-gnu (>>4:14.2)" \
   && apt-get clean different \
   && rm -rf /var/lib/apt/lists/*; \
   fi

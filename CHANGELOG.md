@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.3.0](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.2.2...v1.3.0) (2026-03-09)
+
+
+### Features
+
+* add cross compile for arm64 ([1ecf46b](https://github.com/michael-grosshaeuser/rac_font_init/commit/1ecf46b7a94884fe96e8f87921c6276f15b7132c))
+* add cross compile to workflow ([dc45a04](https://github.com/michael-grosshaeuser/rac_font_init/commit/dc45a04d77d3af102dbaf01adb5938ca875e2282))
+* add platform  arg to build stage ([9dd61c5](https://github.com/michael-grosshaeuser/rac_font_init/commit/9dd61c53028df2e7070e873aee4deb60406a22f6))
+
+
+### Bugfixes
+
+* change run command for aarch64 ([3a7aeb2](https://github.com/michael-grosshaeuser/rac_font_init/commit/3a7aeb28402fb1b0364c234467d2ed309b3f3b7e))
+
 ## [1.2.2](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.2.1...v1.2.2) (2026-03-02)
 
 

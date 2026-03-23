@@ -19,7 +19,7 @@ RUN apk add -u --no-cache cosign=~2.4 \
 
 ################################################################################
 # Create a stage for building/compiling the application.
-FROM --platform=$BUILDPLATFORM gcc:15.2.0-trixie@sha256:9cc747b141fb69baaff237936f742f579fe6439e5b3b533b1c40d82374d220a0 AS build
+FROM --platform=$BUILDPLATFORM gcc:15.2.0-trixie@sha256:34214606c5ff7f9f6f0530c0edf7ce30d12ff6ac973fda861e61c92e99f4f607 AS build
 
 ARG TARGETPLATFORM
 ARG BUILDPLATFORM

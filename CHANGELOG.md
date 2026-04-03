@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.3.3](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.2...v1.3.3) (2026-04-03)
+
+
+### Bugfixes
+
+* add production environment to deploy workflow ([b4d0e69](https://github.com/michael-grosshaeuser/rac_font_init/commit/b4d0e69a1486f3f80ed14f04deef9d91197c8849))
+* add production environment to release-please job ([0d3b1c3](https://github.com/michael-grosshaeuser/rac_font_init/commit/0d3b1c3edf78d0f1534299f3e0e86fdae830cb06))
+* disable provenance and sbom in deploy workflow ([50cee02](https://github.com/michael-grosshaeuser/rac_font_init/commit/50cee022ad5d514f8bba6766cfcd843318c996f0))
+
 ## [1.3.2](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.1...v1.3.2) (2026-04-03)
 
 

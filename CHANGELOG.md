@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.2](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.1...v1.3.2) (2026-04-03)
+
+
+### Dependencies
+
+* **deps:** update docker/dockerfile:1 docker digest to 4a43a54 ([ed676b5](https://github.com/michael-grosshaeuser/rac_font_init/commit/ed676b506e012b7654fc61bbf1f80e6f40ead9fb))
+* **deps:** update gcc:15.2.0-trixie docker digest to 3421460 ([784cfc9](https://github.com/michael-grosshaeuser/rac_font_init/commit/784cfc905ec40e91b46d933300098aa0e62cff43))
+
 ## [1.3.1](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.0...v1.3.1) (2026-03-16)
 
 

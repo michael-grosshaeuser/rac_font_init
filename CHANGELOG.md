@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.7](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.6...v1.3.7) (2026-05-19)
+
+
+### Bugfixes
+
+* cosing package version ([75e1eee](https://github.com/michael-grosshaeuser/rac_font_init/commit/75e1eee7372c6f934572413fb1023d0d186a5215))
+
 ## [1.3.6](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.5...v1.3.6) (2026-05-19)
 
 

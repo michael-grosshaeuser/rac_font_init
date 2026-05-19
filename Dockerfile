@@ -11,7 +11,7 @@ ARG BASE_IMAGE=gcr.io/distroless/base-debian13:latest@sha256:f2df8702d4dcc45ce76
 # of this stage.
 FROM alpine:3.23@sha256:5b10f432ef3da1b8d4c7eb6c487f2f5a8f096bc91145e68878dd4a5019afde11 AS image-verifier
 ARG BASE_IMAGE
-RUN apk add -u --no-cache cosign=~2.4 \
+RUN apk add -u --no-cache cosign=~2.6 \
   && cosign verify $BASE_IMAGE \
   --certificate-identity keyless@distroless.iam.gserviceaccount.com \
   --certificate-oidc-issuer https://accounts.google.com \

@@ -43,3 +43,4 @@ jobs:
           VALIDATE_TRIVY: false
           VALIDATE_NATURAL_LANGUAGE: false
           FIX_MARKDOWN_PRETTIER: true
+          token: ${{ secrets.PAT }}

@@ -17,7 +17,7 @@ permissions: {}
 jobs:
   run-lint:
     runs-on: ubuntu-latest
-
+    environment: production
     permissions:
       contents: read
       packages: read

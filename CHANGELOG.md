@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.3.9](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.8...v1.3.9) (2026-06-12)
+
+
+### Dependencies
+
+* **deps:** update alpine docker tag to v3.24 ([0ac7a9b](https://github.com/michael-grosshaeuser/rac_font_init/commit/0ac7a9baa61406ce97df1649b77ef2de57448505))
+* **deps:** update gcc:16.1.0-trixie docker digest to 47c6496 ([c2336a9](https://github.com/michael-grosshaeuser/rac_font_init/commit/c2336a9cac3fbbb0f5c5b2749dca146d6f9de4e8))
+* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 57c1e4c ([659976d](https://github.com/michael-grosshaeuser/rac_font_init/commit/659976d0d988de81d33a51d950c9388901cd6073))
+
 ## [1.3.8](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.7...v1.3.8) (2026-05-25)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.10](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.9...v1.3.10) (2026-06-13)
+
+
+### Bugfixes
+
+* update cosign version to 3.0 in Dockerfile ([67c70a8](https://github.com/michael-grosshaeuser/rac_font_init/commit/67c70a88b14d6a6dd9b77136cae04c51ef7614fa))
+
 ## [1.3.9](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.8...v1.3.9) (2026-06-12)
 
 

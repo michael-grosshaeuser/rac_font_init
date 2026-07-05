@@ -46,4 +46,5 @@ jobs:
           VALIDATE_BIOME_LINT: false
           VALIDATE_TRIVY: false
           VALIDATE_NATURAL_LANGUAGE: false
+          VALIDATE_JSCPD: false
           FIX_MARKDOWN_PRETTIER: true

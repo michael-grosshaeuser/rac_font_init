@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.3.12](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.11...v1.3.12) (2026-07-14)
+
+
+### Dependencies
+
+* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 7c4468d ([d8964c8](https://github.com/michael-grosshaeuser/rac_font_init/commit/d8964c83e8bb260f143da41ecdc56c786a953025))
+
+
+### Bugfixes
+
+* disable JSCPD validation in super-linter ([9c94a47](https://github.com/michael-grosshaeuser/rac_font_init/commit/9c94a47d0ad0bc0aef333d098970d0c6d71fb398))
+* update super-linter.yml to ignore generated files ([3b9acc1](https://github.com/michael-grosshaeuser/rac_font_init/commit/3b9acc1d80a735853c7054ee414993cdf1f4b64d))
+
 ## [1.3.11](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.10...v1.3.11) (2026-07-05)
 
 

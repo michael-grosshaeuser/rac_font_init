@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.16](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.15...v1.3.16) (2026-08-24)
+
+
+### Dependencies
+
+* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 20dc7ed ([a2cd98d](https://github.com/michael-grosshaeuser/rac_font_init/commit/a2cd98d7b096d32137343b1f7bf21aa25aa321f4))
+
 ## [1.3.15](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.14...v1.3.15) (2026-08-21)
 
 

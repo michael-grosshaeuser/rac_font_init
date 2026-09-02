@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.18](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.17...v1.3.18) (2026-09-02)
+
+
+### Dependencies
+
+* **deps:** update gcc:16.2.0-trixie docker digest to b98be39 ([0d4b489](https://github.com/michael-grosshaeuser/rac_font_init/commit/0d4b489386e85c6079550ba6322dd12b690c70e8))
+
 ## [1.3.17](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.16...v1.3.17) (2026-08-31)
 
 

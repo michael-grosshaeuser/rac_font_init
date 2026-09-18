@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.19](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.18...v1.3.19) (2026-09-18)
+
+
+### Dependencies
+
+* **deps:** update alpine:3.24 docker digest to 5b02b42 ([d40f6a7](https://github.com/michael-grosshaeuser/rac_font_init/commit/d40f6a7c7788fa30bcb21c6ddb05355bf9d011d8))
+
 ## [1.3.18](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.17...v1.3.18) (2026-09-14)
 
 

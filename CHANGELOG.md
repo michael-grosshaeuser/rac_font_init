@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.20](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.19...v1.3.20) (2026-09-25)
+
+
+### Bugfixes
+
+* set description for container ([eb5040b](https://github.com/michael-grosshaeuser/rac_font_init/commit/eb5040be17798cca31107b3a1bd1df0426687c63))
+
 ## [1.3.19](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.18...v1.3.19) (2026-09-25)
 
 

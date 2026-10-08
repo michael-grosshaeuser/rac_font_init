@@ -90,9 +90,10 @@ ENV LANG=C.UTF-8
 # Add VOLUMEs where the fonts will be copied to
 VOLUME  ["/font_volume"]
 
-# HEALTHCHECK: check if the copy_fonts binary exists and is executable
-HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \
-  CMD [ -x /usr/local/bin/copy_fonts ] || exit 1
+# Kubernetes init containers are expected to run once and exit successfully after
+# performing their setup task. Docker healthchecks are not meaningful here and
+# would only report a transient status for a short-lived container.
+HEALTHCHECK NONE
 
 # What the container should run when it is started.
 ENTRYPOINT ["copy_fonts"]

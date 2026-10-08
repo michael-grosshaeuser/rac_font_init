@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.22](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.21...v1.3.22) (2026-10-08)
+
+
+### Dependencies
+
+* **deps:** update gcc:16.2.0-trixie docker digest to ee90855 ([802687b](https://github.com/michael-grosshaeuser/rac_font_init/commit/802687b00676b9ebb7b8a25f00b7dda0ec50880f))
+
+
+### Bugfixes
+
+* change healthcheck ([b6d6b84](https://github.com/michael-grosshaeuser/rac_font_init/commit/b6d6b84a744fc73cd1993bf1b174650605233339))
+
 ## [1.3.21](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.20...v1.3.21) (2026-10-05)
 
 

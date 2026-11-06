@@ -9,7 +9,7 @@ ARG BASE_IMAGE=gcr.io/distroless/base-debian13:latest@sha256:075a33d9c49026ca7ee
 # If it succeeds, a marker file is created to indicate success.
 # This marker file is then copied to the final stage to enforce the execution
 # of this stage.
-FROM alpine:3.24@sha256:be2656061b536c1883c4034790e21d0a09c5aaaf51968b89368a3c0371ea2c9a AS image-verifier
+FROM alpine:3.24@sha256:3f4d6b32e26703c6082839234f43769d5046b3ac7c910033911d1e71d8cd630a AS image-verifier
 ARG BASE_IMAGE
 RUN apk add -u --no-cache cosign=~3.0 \
   && cosign verify $BASE_IMAGE \

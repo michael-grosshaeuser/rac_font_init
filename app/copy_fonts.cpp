@@ -1,5 +1,5 @@
 // Copyright (c) 2024 Michael Grosshaeuser
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: MIT License
 
 #include <filesystem>
 #include <iostream>

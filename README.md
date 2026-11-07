@@ -31,4 +31,4 @@ The fonts will then be available in the specified target directory.
 
 - The image runs as a non-privileged user by default.
 - The Nerd Fonts used are downloaded from the official repository during build.
-- The project is licensed under the GNU GPLv3.
+- See [LICENSE](LICENSE) for the license terms.

@@ -2,288 +2,256 @@
 
 ## [1.3.25](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.24...v1.3.25) (2026-11-06)
 
-
 ### Dependencies
 
-* **deps:** update alpine:3.24 docker digest to 3f4d6b3 ([ab7de8c](https://github.com/michael-grosshaeuser/rac_font_init/commit/ab7de8c310d540d21b4e4da0ffdbec696537247e))
+- **deps:** update alpine:3.24 docker digest to 3f4d6b3 ([ab7de8c](https://github.com/michael-grosshaeuser/rac_font_init/commit/ab7de8c310d540d21b4e4da0ffdbec696537247e))
 
 ## [1.3.24](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.23...v1.3.24) (2026-11-02)
 
-
 ### Dependencies
 
-* **deps:** update gcc:16.2.0-trixie docker digest to 07280eb ([c9bd9b8](https://github.com/michael-grosshaeuser/rac_font_init/commit/c9bd9b872c1eead1541d055c1d99f3045227abdf))
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 075a33d ([dd7aee8](https://github.com/michael-grosshaeuser/rac_font_init/commit/dd7aee8c62b7acd34c88f7de012dcebf3e558f65))
+- **deps:** update gcc:16.2.0-trixie docker digest to 07280eb ([c9bd9b8](https://github.com/michael-grosshaeuser/rac_font_init/commit/c9bd9b872c1eead1541d055c1d99f3045227abdf))
+- **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 075a33d ([dd7aee8](https://github.com/michael-grosshaeuser/rac_font_init/commit/dd7aee8c62b7acd34c88f7de012dcebf3e558f65))
 
 ## [1.3.23](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.22...v1.3.23) (2026-10-24)
 
-
 ### Dependencies
 
-* **deps:** update alpine:3.24 docker digest to be26560 ([74fc494](https://github.com/michael-grosshaeuser/rac_font_init/commit/74fc494f13c5a6eaafa25a5e133175968307cff0))
-* **deps:** update gcc:16.2.0-trixie docker digest to 17043c2 ([84ea9db](https://github.com/michael-grosshaeuser/rac_font_init/commit/84ea9dbca4bac5a8f7a2853835ef54d6e0780e4c))
-* **deps:** update gcc:16.2.0-trixie docker digest to 43978d7 ([5fabda9](https://github.com/michael-grosshaeuser/rac_font_init/commit/5fabda98a159db961f4c29e97b80991e6776396a))
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 44a80dc ([9b880f5](https://github.com/michael-grosshaeuser/rac_font_init/commit/9b880f5a3e979d48a3447d25059750b2f02240af))
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to f5e9519 ([6e50c25](https://github.com/michael-grosshaeuser/rac_font_init/commit/6e50c259d5bf1b280dd10c6b03e486e51cfef33f))
+- **deps:** update alpine:3.24 docker digest to be26560 ([74fc494](https://github.com/michael-grosshaeuser/rac_font_init/commit/74fc494f13c5a6eaafa25a5e133175968307cff0))
+- **deps:** update gcc:16.2.0-trixie docker digest to 17043c2 ([84ea9db](https://github.com/michael-grosshaeuser/rac_font_init/commit/84ea9dbca4bac5a8f7a2853835ef54d6e0780e4c))
+- **deps:** update gcc:16.2.0-trixie docker digest to 43978d7 ([5fabda9](https://github.com/michael-grosshaeuser/rac_font_init/commit/5fabda98a159db961f4c29e97b80991e6776396a))
+- **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 44a80dc ([9b880f5](https://github.com/michael-grosshaeuser/rac_font_init/commit/9b880f5a3e979d48a3447d25059750b2f02240af))
+- **deps:** update gcr.io/distroless/base-debian13:latest docker digest to f5e9519 ([6e50c25](https://github.com/michael-grosshaeuser/rac_font_init/commit/6e50c259d5bf1b280dd10c6b03e486e51cfef33f))
 
 ## [1.3.22](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.21...v1.3.22) (2026-10-08)
 
-
 ### Dependencies
 
-* **deps:** update gcc:16.2.0-trixie docker digest to ee90855 ([802687b](https://github.com/michael-grosshaeuser/rac_font_init/commit/802687b00676b9ebb7b8a25f00b7dda0ec50880f))
-
+- **deps:** update gcc:16.2.0-trixie docker digest to ee90855 ([802687b](https://github.com/michael-grosshaeuser/rac_font_init/commit/802687b00676b9ebb7b8a25f00b7dda0ec50880f))
 
 ### Bugfixes
 
-* change healthcheck ([b6d6b84](https://github.com/michael-grosshaeuser/rac_font_init/commit/b6d6b84a744fc73cd1993bf1b174650605233339))
+- change healthcheck ([b6d6b84](https://github.com/michael-grosshaeuser/rac_font_init/commit/b6d6b84a744fc73cd1993bf1b174650605233339))
 
 ## [1.3.21](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.20...v1.3.21) (2026-10-05)
 
-
 ### Dependencies
 
-* **deps:** update docker/dockerfile:1 docker digest to 4edf897 ([9092717](https://github.com/michael-grosshaeuser/rac_font_init/commit/90927174e4cf0bd8776432038f3341fbb9cda56e))
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 389cad2 ([c38f4a4](https://github.com/michael-grosshaeuser/rac_font_init/commit/c38f4a4aaa5a988736dd71130a4ecbfdd3cc2dfd))
+- **deps:** update docker/dockerfile:1 docker digest to 4edf897 ([9092717](https://github.com/michael-grosshaeuser/rac_font_init/commit/90927174e4cf0bd8776432038f3341fbb9cda56e))
+- **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 389cad2 ([c38f4a4](https://github.com/michael-grosshaeuser/rac_font_init/commit/c38f4a4aaa5a988736dd71130a4ecbfdd3cc2dfd))
 
 ## [1.3.20](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.19...v1.3.20) (2026-09-25)
 
-
 ### Bugfixes
 
-* set description for container ([eb5040b](https://github.com/michael-grosshaeuser/rac_font_init/commit/eb5040be17798cca31107b3a1bd1df0426687c63))
+- set description for container ([eb5040b](https://github.com/michael-grosshaeuser/rac_font_init/commit/eb5040be17798cca31107b3a1bd1df0426687c63))
 
 ## [1.3.19](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.18...v1.3.19) (2026-09-25)
 
-
 ### Dependencies
 
-* **deps:** update alpine:3.24 docker digest to 294b683 ([892e370](https://github.com/michael-grosshaeuser/rac_font_init/commit/892e3706011a8f7602514ec2a0b3796b681c71d4))
-* **deps:** update alpine:3.24 docker digest to 5b02b42 ([d40f6a7](https://github.com/michael-grosshaeuser/rac_font_init/commit/d40f6a7c7788fa30bcb21c6ddb05355bf9d011d8))
-* **deps:** update gcc:16.2.0-trixie docker digest to 2a33180 ([9a9bfdc](https://github.com/michael-grosshaeuser/rac_font_init/commit/9a9bfdcac71c33513274220e47f4eb17ad56fbf1))
-* **deps:** update gcc:16.2.0-trixie docker digest to ef558a4 ([c275104](https://github.com/michael-grosshaeuser/rac_font_init/commit/c2751049f8cbb81c916d0304674e68b5fd12435f))
+- **deps:** update alpine:3.24 docker digest to 294b683 ([892e370](https://github.com/michael-grosshaeuser/rac_font_init/commit/892e3706011a8f7602514ec2a0b3796b681c71d4))
+- **deps:** update alpine:3.24 docker digest to 5b02b42 ([d40f6a7](https://github.com/michael-grosshaeuser/rac_font_init/commit/d40f6a7c7788fa30bcb21c6ddb05355bf9d011d8))
+- **deps:** update gcc:16.2.0-trixie docker digest to 2a33180 ([9a9bfdc](https://github.com/michael-grosshaeuser/rac_font_init/commit/9a9bfdcac71c33513274220e47f4eb17ad56fbf1))
+- **deps:** update gcc:16.2.0-trixie docker digest to ef558a4 ([c275104](https://github.com/michael-grosshaeuser/rac_font_init/commit/c2751049f8cbb81c916d0304674e68b5fd12435f))
 
 ## [1.3.18](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.17...v1.3.18) (2026-09-14)
 
-
 ### Dependencies
 
-* **deps:** update gcc:16.2.0-trixie docker digest to b98be39 ([0d4b489](https://github.com/michael-grosshaeuser/rac_font_init/commit/0d4b489386e85c6079550ba6322dd12b690c70e8))
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 0ebad35 ([c70fa62](https://github.com/michael-grosshaeuser/rac_font_init/commit/c70fa62c95592d762897d1779176b53faff2b068))
+- **deps:** update gcc:16.2.0-trixie docker digest to b98be39 ([0d4b489](https://github.com/michael-grosshaeuser/rac_font_init/commit/0d4b489386e85c6079550ba6322dd12b690c70e8))
+- **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 0ebad35 ([c70fa62](https://github.com/michael-grosshaeuser/rac_font_init/commit/c70fa62c95592d762897d1779176b53faff2b068))
 
 ## [1.3.17](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.16...v1.3.17) (2026-08-31)
 
-
 ### Dependencies
 
-* **deps:** update gcc:16.2.0-trixie docker digest to 2e6f4ae ([a6e6518](https://github.com/michael-grosshaeuser/rac_font_init/commit/a6e6518b802f4cdb61c73b57ff787eb7aaa334f0))
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 9ef50bc ([6be6179](https://github.com/michael-grosshaeuser/rac_font_init/commit/6be6179410b538869a8c75638b6091312423c123))
+- **deps:** update gcc:16.2.0-trixie docker digest to 2e6f4ae ([a6e6518](https://github.com/michael-grosshaeuser/rac_font_init/commit/a6e6518b802f4cdb61c73b57ff787eb7aaa334f0))
+- **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 9ef50bc ([6be6179](https://github.com/michael-grosshaeuser/rac_font_init/commit/6be6179410b538869a8c75638b6091312423c123))
 
 ## [1.3.16](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.15...v1.3.16) (2026-08-24)
 
-
 ### Dependencies
 
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 20dc7ed ([a2cd98d](https://github.com/michael-grosshaeuser/rac_font_init/commit/a2cd98d7b096d32137343b1f7bf21aa25aa321f4))
+- **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 20dc7ed ([a2cd98d](https://github.com/michael-grosshaeuser/rac_font_init/commit/a2cd98d7b096d32137343b1f7bf21aa25aa321f4))
 
 ## [1.3.15](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.14...v1.3.15) (2026-08-21)
 
-
 ### Dependencies
 
-* **deps:** update docker/dockerfile:1 docker digest to ecfaec9 ([0e18da4](https://github.com/michael-grosshaeuser/rac_font_init/commit/0e18da405c8b928fae38dd4d56af3fd387397c92))
-* **deps:** update gcc:16.2.0-trixie docker digest to 8d466d9 ([01aaa68](https://github.com/michael-grosshaeuser/rac_font_init/commit/01aaa689fb87891f9e256fd3027bc1f7c414425f))
-* **deps:** update gcc:16.2.0-trixie docker digest to b69972d ([0999678](https://github.com/michael-grosshaeuser/rac_font_init/commit/0999678d9e50bed01a5d6e51702bf3965f0dc7a8))
+- **deps:** update docker/dockerfile:1 docker digest to ecfaec9 ([0e18da4](https://github.com/michael-grosshaeuser/rac_font_init/commit/0e18da405c8b928fae38dd4d56af3fd387397c92))
+- **deps:** update gcc:16.2.0-trixie docker digest to 8d466d9 ([01aaa68](https://github.com/michael-grosshaeuser/rac_font_init/commit/01aaa689fb87891f9e256fd3027bc1f7c414425f))
+- **deps:** update gcc:16.2.0-trixie docker digest to b69972d ([0999678](https://github.com/michael-grosshaeuser/rac_font_init/commit/0999678d9e50bed01a5d6e51702bf3965f0dc7a8))
 
 ## [1.3.14](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.13...v1.3.14) (2026-08-12)
 
-
 ### Dependencies
 
-* **deps:** update gcc docker tag to v16.2.0 ([e282b51](https://github.com/michael-grosshaeuser/rac_font_init/commit/e282b51dfca355531911fc3036b67285ef83e1c2))
-* **deps:** update gcc:16.1.0-trixie docker digest to 713c9f8 ([d692495](https://github.com/michael-grosshaeuser/rac_font_init/commit/d69249520aab67703d6a851afc50a8e0d1c467e3))
-* **deps:** update gcc:16.1.0-trixie docker digest to 7943c2f ([5ea825c](https://github.com/michael-grosshaeuser/rac_font_init/commit/5ea825c60fde3f2cca4890d23ea2b319857b5458))
-* **deps:** update gcc:16.1.0-trixie docker digest to a612916 ([0193a4e](https://github.com/michael-grosshaeuser/rac_font_init/commit/0193a4ebd5279e6b00cc57c6c957ea33704d2836))
+- **deps:** update gcc docker tag to v16.2.0 ([e282b51](https://github.com/michael-grosshaeuser/rac_font_init/commit/e282b51dfca355531911fc3036b67285ef83e1c2))
+- **deps:** update gcc:16.1.0-trixie docker digest to 713c9f8 ([d692495](https://github.com/michael-grosshaeuser/rac_font_init/commit/d69249520aab67703d6a851afc50a8e0d1c467e3))
+- **deps:** update gcc:16.1.0-trixie docker digest to 7943c2f ([5ea825c](https://github.com/michael-grosshaeuser/rac_font_init/commit/5ea825c60fde3f2cca4890d23ea2b319857b5458))
+- **deps:** update gcc:16.1.0-trixie docker digest to a612916 ([0193a4e](https://github.com/michael-grosshaeuser/rac_font_init/commit/0193a4ebd5279e6b00cc57c6c957ea33704d2836))
 
 ## [1.3.13](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.12...v1.3.13) (2026-07-16)
 
-
 ### Dependencies
 
-* **deps:** update gcc:16.1.0-trixie docker digest to cde79a7 ([3a1f016](https://github.com/michael-grosshaeuser/rac_font_init/commit/3a1f0164e08e502fd9bdee254c4273d9a4e71148))
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to f4a335c ([90f51d4](https://github.com/michael-grosshaeuser/rac_font_init/commit/90f51d44b71735bf2c4e91772e71b4395a85dc16))
+- **deps:** update gcc:16.1.0-trixie docker digest to cde79a7 ([3a1f016](https://github.com/michael-grosshaeuser/rac_font_init/commit/3a1f0164e08e502fd9bdee254c4273d9a4e71148))
+- **deps:** update gcr.io/distroless/base-debian13:latest docker digest to f4a335c ([90f51d4](https://github.com/michael-grosshaeuser/rac_font_init/commit/90f51d44b71735bf2c4e91772e71b4395a85dc16))
 
 ## [1.3.12](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.11...v1.3.12) (2026-07-14)
 
-
 ### Dependencies
 
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 7c4468d ([d8964c8](https://github.com/michael-grosshaeuser/rac_font_init/commit/d8964c83e8bb260f143da41ecdc56c786a953025))
-
+- **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 7c4468d ([d8964c8](https://github.com/michael-grosshaeuser/rac_font_init/commit/d8964c83e8bb260f143da41ecdc56c786a953025))
 
 ### Bugfixes
 
-* disable JSCPD validation in super-linter ([9c94a47](https://github.com/michael-grosshaeuser/rac_font_init/commit/9c94a47d0ad0bc0aef333d098970d0c6d71fb398))
-* update super-linter.yml to ignore generated files ([3b9acc1](https://github.com/michael-grosshaeuser/rac_font_init/commit/3b9acc1d80a735853c7054ee414993cdf1f4b64d))
+- disable JSCPD validation in super-linter ([9c94a47](https://github.com/michael-grosshaeuser/rac_font_init/commit/9c94a47d0ad0bc0aef333d098970d0c6d71fb398))
+- update super-linter.yml to ignore generated files ([3b9acc1](https://github.com/michael-grosshaeuser/rac_font_init/commit/3b9acc1d80a735853c7054ee414993cdf1f4b64d))
 
 ## [1.3.11](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.10...v1.3.11) (2026-07-05)
 
-
 ### Dependencies
 
-* **deps:** update alpine:3.24 docker digest to 28bd5fe ([ad8d024](https://github.com/michael-grosshaeuser/rac_font_init/commit/ad8d02453f0519701dd3730d9d2029f19af70166))
-* **deps:** update gcc:16.1.0-trixie docker digest to af4cbf4 ([a0526f1](https://github.com/michael-grosshaeuser/rac_font_init/commit/a0526f1d1af55b50e6b7a53e906df67a78573545))
+- **deps:** update alpine:3.24 docker digest to 28bd5fe ([ad8d024](https://github.com/michael-grosshaeuser/rac_font_init/commit/ad8d02453f0519701dd3730d9d2029f19af70166))
+- **deps:** update gcc:16.1.0-trixie docker digest to af4cbf4 ([a0526f1](https://github.com/michael-grosshaeuser/rac_font_init/commit/a0526f1d1af55b50e6b7a53e906df67a78573545))
 
 ## [1.3.10](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.9...v1.3.10) (2026-06-13)
 
-
 ### Bugfixes
 
-* update cosign version to 3.0 in Dockerfile ([67c70a8](https://github.com/michael-grosshaeuser/rac_font_init/commit/67c70a88b14d6a6dd9b77136cae04c51ef7614fa))
+- update cosign version to 3.0 in Dockerfile ([67c70a8](https://github.com/michael-grosshaeuser/rac_font_init/commit/67c70a88b14d6a6dd9b77136cae04c51ef7614fa))
 
 ## [1.3.9](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.8...v1.3.9) (2026-06-12)
 
-
 ### Dependencies
 
-* **deps:** update alpine docker tag to v3.24 ([0ac7a9b](https://github.com/michael-grosshaeuser/rac_font_init/commit/0ac7a9baa61406ce97df1649b77ef2de57448505))
-* **deps:** update gcc:16.1.0-trixie docker digest to 47c6496 ([c2336a9](https://github.com/michael-grosshaeuser/rac_font_init/commit/c2336a9cac3fbbb0f5c5b2749dca146d6f9de4e8))
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 57c1e4c ([659976d](https://github.com/michael-grosshaeuser/rac_font_init/commit/659976d0d988de81d33a51d950c9388901cd6073))
+- **deps:** update alpine docker tag to v3.24 ([0ac7a9b](https://github.com/michael-grosshaeuser/rac_font_init/commit/0ac7a9baa61406ce97df1649b77ef2de57448505))
+- **deps:** update gcc:16.1.0-trixie docker digest to 47c6496 ([c2336a9](https://github.com/michael-grosshaeuser/rac_font_init/commit/c2336a9cac3fbbb0f5c5b2749dca146d6f9de4e8))
+- **deps:** update gcr.io/distroless/base-debian13:latest docker digest to 57c1e4c ([659976d](https://github.com/michael-grosshaeuser/rac_font_init/commit/659976d0d988de81d33a51d950c9388901cd6073))
 
 ## [1.3.8](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.7...v1.3.8) (2026-05-25)
 
-
 ### Dependencies
 
-* **deps:** update docker/dockerfile:1 docker digest to 87999aa ([aa67cba](https://github.com/michael-grosshaeuser/rac_font_init/commit/aa67cba6115a1541aa41863d794c627c1d46ca44))
-* **deps:** update gcc:16.1.0-trixie docker digest to 471809c ([37f9e85](https://github.com/michael-grosshaeuser/rac_font_init/commit/37f9e854806f5f594a1a8466330a065167088cd0))
-* **deps:** update gcc:16.1.0-trixie docker digest to 6a251e4 ([92bc7bc](https://github.com/michael-grosshaeuser/rac_font_init/commit/92bc7bc8aa28f64ab24bc351daf8f84fdbddb6ff))
+- **deps:** update docker/dockerfile:1 docker digest to 87999aa ([aa67cba](https://github.com/michael-grosshaeuser/rac_font_init/commit/aa67cba6115a1541aa41863d794c627c1d46ca44))
+- **deps:** update gcc:16.1.0-trixie docker digest to 471809c ([37f9e85](https://github.com/michael-grosshaeuser/rac_font_init/commit/37f9e854806f5f594a1a8466330a065167088cd0))
+- **deps:** update gcc:16.1.0-trixie docker digest to 6a251e4 ([92bc7bc](https://github.com/michael-grosshaeuser/rac_font_init/commit/92bc7bc8aa28f64ab24bc351daf8f84fdbddb6ff))
 
 ## [1.3.7](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.6...v1.3.7) (2026-05-19)
 
-
 ### Bugfixes
 
-* cosing package version ([75e1eee](https://github.com/michael-grosshaeuser/rac_font_init/commit/75e1eee7372c6f934572413fb1023d0d186a5215))
+- cosing package version ([75e1eee](https://github.com/michael-grosshaeuser/rac_font_init/commit/75e1eee7372c6f934572413fb1023d0d186a5215))
 
 ## [1.3.6](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.5...v1.3.6) (2026-05-19)
 
-
 ### Dependencies
 
-* **deps:** update gcc docker tag to v16 ([95a8a82](https://github.com/michael-grosshaeuser/rac_font_init/commit/95a8a8263cf22ad57937e5327861994ad97d7999))
-* **deps:** update gcc:16.1.0-trixie docker digest to 1cfa876 ([fd9d922](https://github.com/michael-grosshaeuser/rac_font_init/commit/fd9d92231291730bf0e742bb8249838188e24a08))
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to f2df870 ([3856389](https://github.com/michael-grosshaeuser/rac_font_init/commit/3856389a2ba9977db07c72a80554fb82e5e5ff76))
+- **deps:** update gcc docker tag to v16 ([95a8a82](https://github.com/michael-grosshaeuser/rac_font_init/commit/95a8a8263cf22ad57937e5327861994ad97d7999))
+- **deps:** update gcc:16.1.0-trixie docker digest to 1cfa876 ([fd9d922](https://github.com/michael-grosshaeuser/rac_font_init/commit/fd9d92231291730bf0e742bb8249838188e24a08))
+- **deps:** update gcr.io/distroless/base-debian13:latest docker digest to f2df870 ([3856389](https://github.com/michael-grosshaeuser/rac_font_init/commit/3856389a2ba9977db07c72a80554fb82e5e5ff76))
 
 ## [1.3.5](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.4...v1.3.5) (2026-04-29)
 
-
 ### Dependencies
 
-* **deps:** update gcc:15.2.0-trixie docker digest to 7c7782d ([d448fb1](https://github.com/michael-grosshaeuser/rac_font_init/commit/d448fb1223efb1785e09de2212a9af27d348aa26))
-* **deps:** update gcr.io/distroless/base-debian13:latest docker digest to c83f022 ([455513b](https://github.com/michael-grosshaeuser/rac_font_init/commit/455513b2747bfb24097143c8e7ee33c2ff845dd1))
+- **deps:** update gcc:15.2.0-trixie docker digest to 7c7782d ([d448fb1](https://github.com/michael-grosshaeuser/rac_font_init/commit/d448fb1223efb1785e09de2212a9af27d348aa26))
+- **deps:** update gcr.io/distroless/base-debian13:latest docker digest to c83f022 ([455513b](https://github.com/michael-grosshaeuser/rac_font_init/commit/455513b2747bfb24097143c8e7ee33c2ff845dd1))
 
 ## [1.3.4](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.3...v1.3.4) (2026-04-20)
 
-
 ### Dependencies
 
-* **deps:** update alpine:3.23 docker digest to 5b10f43 ([f57673b](https://github.com/michael-grosshaeuser/rac_font_init/commit/f57673b7bd36ecf3bc4508e18e15507d5b440515))
-* **deps:** update docker/dockerfile:1 docker digest to 2780b5c ([6aa100a](https://github.com/michael-grosshaeuser/rac_font_init/commit/6aa100acca1a354082dddfb7e4f2071234562766))
+- **deps:** update alpine:3.23 docker digest to 5b10f43 ([f57673b](https://github.com/michael-grosshaeuser/rac_font_init/commit/f57673b7bd36ecf3bc4508e18e15507d5b440515))
+- **deps:** update docker/dockerfile:1 docker digest to 2780b5c ([6aa100a](https://github.com/michael-grosshaeuser/rac_font_init/commit/6aa100acca1a354082dddfb7e4f2071234562766))
 
 ## [1.3.3](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.2...v1.3.3) (2026-04-03)
 
-
 ### Bugfixes
 
-* add production environment to deploy workflow ([b4d0e69](https://github.com/michael-grosshaeuser/rac_font_init/commit/b4d0e69a1486f3f80ed14f04deef9d91197c8849))
-* add production environment to release-please job ([0d3b1c3](https://github.com/michael-grosshaeuser/rac_font_init/commit/0d3b1c3edf78d0f1534299f3e0e86fdae830cb06))
-* disable provenance and sbom in deploy workflow ([50cee02](https://github.com/michael-grosshaeuser/rac_font_init/commit/50cee022ad5d514f8bba6766cfcd843318c996f0))
+- add production environment to deploy workflow ([b4d0e69](https://github.com/michael-grosshaeuser/rac_font_init/commit/b4d0e69a1486f3f80ed14f04deef9d91197c8849))
+- add production environment to release-please job ([0d3b1c3](https://github.com/michael-grosshaeuser/rac_font_init/commit/0d3b1c3edf78d0f1534299f3e0e86fdae830cb06))
+- disable provenance and sbom in deploy workflow ([50cee02](https://github.com/michael-grosshaeuser/rac_font_init/commit/50cee022ad5d514f8bba6766cfcd843318c996f0))
 
 ## [1.3.2](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.1...v1.3.2) (2026-04-03)
 
-
 ### Dependencies
 
-* **deps:** update docker/dockerfile:1 docker digest to 4a43a54 ([ed676b5](https://github.com/michael-grosshaeuser/rac_font_init/commit/ed676b506e012b7654fc61bbf1f80e6f40ead9fb))
-* **deps:** update gcc:15.2.0-trixie docker digest to 3421460 ([784cfc9](https://github.com/michael-grosshaeuser/rac_font_init/commit/784cfc905ec40e91b46d933300098aa0e62cff43))
+- **deps:** update docker/dockerfile:1 docker digest to 4a43a54 ([ed676b5](https://github.com/michael-grosshaeuser/rac_font_init/commit/ed676b506e012b7654fc61bbf1f80e6f40ead9fb))
+- **deps:** update gcc:15.2.0-trixie docker digest to 3421460 ([784cfc9](https://github.com/michael-grosshaeuser/rac_font_init/commit/784cfc905ec40e91b46d933300098aa0e62cff43))
 
 ## [1.3.1](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.0...v1.3.1) (2026-03-16)
 
-
 ### Dependencies
 
-* **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to b051042 ([588b4cd](https://github.com/michael-grosshaeuser/rac_font_init/commit/588b4cdbe7479608522847bbea15e8cdfbc7f2c9))
+- **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to b051042 ([588b4cd](https://github.com/michael-grosshaeuser/rac_font_init/commit/588b4cdbe7479608522847bbea15e8cdfbc7f2c9))
 
 ## [1.3.0](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.2.2...v1.3.0) (2026-03-09)
 
-
 ### Features
 
-* add cross compile for arm64 ([1ecf46b](https://github.com/michael-grosshaeuser/rac_font_init/commit/1ecf46b7a94884fe96e8f87921c6276f15b7132c))
-* add cross compile to workflow ([dc45a04](https://github.com/michael-grosshaeuser/rac_font_init/commit/dc45a04d77d3af102dbaf01adb5938ca875e2282))
-* add platform  arg to build stage ([9dd61c5](https://github.com/michael-grosshaeuser/rac_font_init/commit/9dd61c53028df2e7070e873aee4deb60406a22f6))
-
+- add cross compile for arm64 ([1ecf46b](https://github.com/michael-grosshaeuser/rac_font_init/commit/1ecf46b7a94884fe96e8f87921c6276f15b7132c))
+- add cross compile to workflow ([dc45a04](https://github.com/michael-grosshaeuser/rac_font_init/commit/dc45a04d77d3af102dbaf01adb5938ca875e2282))
+- add platform arg to build stage ([9dd61c5](https://github.com/michael-grosshaeuser/rac_font_init/commit/9dd61c53028df2e7070e873aee4deb60406a22f6))
 
 ### Bugfixes
 
-* change run command for aarch64 ([3a7aeb2](https://github.com/michael-grosshaeuser/rac_font_init/commit/3a7aeb28402fb1b0364c234467d2ed309b3f3b7e))
+- change run command for aarch64 ([3a7aeb2](https://github.com/michael-grosshaeuser/rac_font_init/commit/3a7aeb28402fb1b0364c234467d2ed309b3f3b7e))
 
 ## [1.2.2](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.2.1...v1.2.2) (2026-03-02)
 
-
 ### Dependencies
 
-* **deps:** update gcr.io/distroless/base-debian13:latest  ([f5f5cfd](https://github.com/michael-grosshaeuser/rac_font_init/commit/f5f5cfd69cab8c82548c39a5dd32c819eb45ab03))
-* **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 8c8b7cf ([6f48f5d](https://github.com/michael-grosshaeuser/rac_font_init/commit/6f48f5d1a16bff1f86bbac82278543b9b7192fbf))
-* **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 9740672 ([f5f5cfd](https://github.com/michael-grosshaeuser/rac_font_init/commit/f5f5cfd69cab8c82548c39a5dd32c819eb45ab03))
-* **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 9740672 ([7b991ce](https://github.com/michael-grosshaeuser/rac_font_init/commit/7b991ceb8f396752a951494c5c5bd59a926bdf55))
-* **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 9fc4940 ([4a24bae](https://github.com/michael-grosshaeuser/rac_font_init/commit/4a24bae509bc5fbeb5e90866ff0f73b1c47b9216))
-* **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 9fc4940 ([4a24bae](https://github.com/michael-grosshaeuser/rac_font_init/commit/4a24bae509bc5fbeb5e90866ff0f73b1c47b9216))
-* **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 9fc4940 ([1a7ebac](https://github.com/michael-grosshaeuser/rac_font_init/commit/1a7ebacea82b0302374ba5443f5314fb13d1c0ac))
-
+- **deps:** update gcr.io/distroless/base-debian13:latest ([f5f5cfd](https://github.com/michael-grosshaeuser/rac_font_init/commit/f5f5cfd69cab8c82548c39a5dd32c819eb45ab03))
+- **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 8c8b7cf ([6f48f5d](https://github.com/michael-grosshaeuser/rac_font_init/commit/6f48f5d1a16bff1f86bbac82278543b9b7192fbf))
+- **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 9740672 ([f5f5cfd](https://github.com/michael-grosshaeuser/rac_font_init/commit/f5f5cfd69cab8c82548c39a5dd32c819eb45ab03))
+- **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 9740672 ([7b991ce](https://github.com/michael-grosshaeuser/rac_font_init/commit/7b991ceb8f396752a951494c5c5bd59a926bdf55))
+- **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 9fc4940 ([4a24bae](https://github.com/michael-grosshaeuser/rac_font_init/commit/4a24bae509bc5fbeb5e90866ff0f73b1c47b9216))
+- **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 9fc4940 ([4a24bae](https://github.com/michael-grosshaeuser/rac_font_init/commit/4a24bae509bc5fbeb5e90866ff0f73b1c47b9216))
+- **deps:** update gcr.io/distroless/base-debian13:latest Docker digest to 9fc4940 ([1a7ebac](https://github.com/michael-grosshaeuser/rac_font_init/commit/1a7ebacea82b0302374ba5443f5314fb13d1c0ac))
 
 ### Documentation
 
-* fix CHANGELOG.md ([5bcd8b7](https://github.com/michael-grosshaeuser/rac_font_init/commit/5bcd8b7600d0607a3357a6cff40de3efe09776cd))
-* fix CHANGELOG.md ([1ee6641](https://github.com/michael-grosshaeuser/rac_font_init/commit/1ee6641a8110e6b9741c49131368f2c7a14605e3))
-
+- fix CHANGELOG.md ([5bcd8b7](https://github.com/michael-grosshaeuser/rac_font_init/commit/5bcd8b7600d0607a3357a6cff40de3efe09776cd))
+- fix CHANGELOG.md ([1ee6641](https://github.com/michael-grosshaeuser/rac_font_init/commit/1ee6641a8110e6b9741c49131368f2c7a14605e3))
 
 ### Bugfixes
 
-* release please config ([8fcda24](https://github.com/michael-grosshaeuser/rac_font_init/commit/8fcda2459d754f154c5fc08428d9e0f492b393ce))
+- release please config ([8fcda24](https://github.com/michael-grosshaeuser/rac_font_init/commit/8fcda2459d754f154c5fc08428d9e0f492b393ce))
 
 ## [1.2.1](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.2.0...v1.2.1) (2026-01-30)
 
 ### Bugfixes
 
-* change renovate semantic commit type for Docker ([0c15d42](https://github.com/michael-grosshaeuser/rac_font_init/commit/0c15d420d5d7d0e368d2afa249114a2642a425ca))
-* change renovate semantic commit type for Docker ([41bea81](https://github.com/michael-grosshaeuser/rac_font_init/commit/41bea818a35e9a41eb5a292271320309b36201c1))
+- change renovate semantic commit type for Docker ([0c15d42](https://github.com/michael-grosshaeuser/rac_font_init/commit/0c15d420d5d7d0e368d2afa249114a2642a425ca))
+- change renovate semantic commit type for Docker ([41bea81](https://github.com/michael-grosshaeuser/rac_font_init/commit/41bea818a35e9a41eb5a292271320309b36201c1))
 
 ## [1.2.0](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.1.0...v1.2.0) (2025-12-13)
 
 ### Features
 
-* enable FIX_MARKDOWN_PRETTIER for super linter ([e42c3f3](https://github.com/michael-grosshaeuser/rac_font_init/commit/e42c3f3532b4bf04506f3e23a526d27946723069))
+- enable FIX_MARKDOWN_PRETTIER for super linter ([e42c3f3](https://github.com/michael-grosshaeuser/rac_font_init/commit/e42c3f3532b4bf04506f3e23a526d27946723069))
 
 ### Bugfixes
 
-* move ccplint config ([a472bc6](https://github.com/michael-grosshaeuser/rac_font_init/commit/a472bc6b1d6da10a208ba4cf733a364ce7fb4740))
+- move ccplint config ([a472bc6](https://github.com/michael-grosshaeuser/rac_font_init/commit/a472bc6b1d6da10a208ba4cf733a364ce7fb4740))
 
 ## [1.1.0](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.0.1...v1.1.0) (2025-10-13)
 
 ### Features
 
-* verify the checksum of a remote font package ([b3c18a1](https://github.com/michael-grosshaeuser/rac_font_init/commit/b3c18a1e3354b4734042e9e168778d8b3e42869f))
+- verify the checksum of a remote font package ([b3c18a1](https://github.com/michael-grosshaeuser/rac_font_init/commit/b3c18a1e3354b4734042e9e168778d8b3e42869f))
 
 ## [1.0.1](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.0.0...v1.0.1) (2025-10-13)
 
 ### Bugfixes
 
-* image license ([842b108](https://github.com/michael-grosshaeuser/rac_font_init/commit/842b108e2b38fb977315fa01f4363dd05239a47b))
+- image license ([842b108](https://github.com/michael-grosshaeuser/rac_font_init/commit/842b108e2b38fb977315fa01f4363dd05239a47b))
 
 ## 1.0.0 (2025-10-05)
 
 ### Miscellaneous chores
 
-* release 1.0.0 ([8d33d6c](https://github.com/michael-grosshaeuser/rac_font_init/commit/8d33d6c558df3c090b5339f7d55bf0342013a535))
+- release 1.0.0 ([8d33d6c](https://github.com/michael-grosshaeuser/rac_font_init/commit/8d33d6c558df3c090b5339f7d55bf0342013a535))

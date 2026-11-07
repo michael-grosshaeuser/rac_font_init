@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.26](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.25...v1.3.26) (2026-11-07)
+
+
+### Documentation
+
+* update files ([89c984e](https://github.com/michael-grosshaeuser/rac_font_init/commit/89c984e8faa6364ba5821d111cab96477de4ddec))
+
 ## [1.3.25](https://github.com/michael-grosshaeuser/rac_font_init/compare/v1.3.24...v1.3.25) (2026-11-06)
 
 ### Dependencies
